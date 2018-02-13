@@ -1,0 +1,27 @@
+# Site settings
+title:          MEMORY Inc.
+description:    "MEMORY Inc.의 엔지니어링 블로그입니다."
+baseurl:        ""
+url:            ""
+
+# Author
+author:
+  name:         MEMORY Inc.
+  url:          http://www.memory-inc.com/
+  email:        tech@memory-inc.com
+
+# Build settings
+markdown:       kramdown
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
